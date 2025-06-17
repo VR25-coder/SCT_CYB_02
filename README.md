@@ -1,2 +1,18 @@
-# SCT_CYB_02
-This repository contains the solution for Task 2 of the SkillCraft Internship Program. The task focuses on foundational cybersecurity practices including encryption, password strength evaluation, and keylogging basics, executed using Kali Linux. All scripts, documentation, and relevant outputs are included for reference and learning purposes.
+## SCT_CYB_02 - Password Strength Checker
+
+## 🔐 Task Summary:
+This Python script evaluates the strength of a user-provided password based on length, use of uppercase and lowercase characters, numbers, and symbols.
+
+## 💡 Features:
+- Checks password complexity
+- Gives a strength rating (Weak, Medium, Strong)
+- Encourages use of secure passwords
+
+## 🧠 What I Learned:
+- Python's use of regex and string checks
+- Best practices in password creation
+- Importance of cybersecurity hygiene
+
+## ▶️ How to Run:
+```bash
+python password_checker.py
