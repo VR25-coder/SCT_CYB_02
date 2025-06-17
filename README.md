@@ -1,19 +1,40 @@
-## 🔐 SCT_CYB_ImageEncryption
+# 🖼️ Image Encryption Task - SkillCraft Technology
 
-## 📌 Task: Image Encryption using Python (SkillCraft Technology Internship)
+## 🔐 Task Description
 
-This repository contains the implementation of a basic **Image Encryption and Decryption** tool using Python. The goal of this task is to demonstrate how encryption can be applied to image files to secure them from unauthorized access.
-
----
-
-## 🧠 What I Learned
-
-- Basics of image processing using OpenCV
-- How to manipulate pixel values in an image
-- Concept of symmetric encryption (same key for encryption & decryption)
-- File handling and numpy array operations in Python
+This task demonstrates a basic method of **image encryption** using Python. The script inverts the RGB values of every pixel in the image, creating a visually "encrypted" version. It’s a beginner-friendly approach to understanding how pixel manipulation works in image processing.
 
 ---
 
-## 📂 Project Structure
+## 📁 File Included
 
+- `image_encrypt.py` - Python script that performs image encryption by inverting RGB values.
+
+---
+
+## 🧠 Concepts Used
+
+- Python Imaging Library (PIL / Pillow)
+- Pixel-level image processing
+- RGB color manipulation
+- Basic file input/output in Python
+
+---
+
+## ⚙️ How It Works
+
+The script opens an image, reads each pixel's RGB value, inverts it (using `255 - value`), and saves the result as a new image.
+
+### 🔄 Example:
+
+Original RGB: `(100, 150, 200)`  
+Encrypted RGB: `(155, 105, 55)`
+
+---
+
+## 💻 How to Run on Kali Linux
+
+### 🔸 Step 1: Install Pillow (if not installed)
+
+```bash
+pip3 install Pillow
