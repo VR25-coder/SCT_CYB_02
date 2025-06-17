@@ -1,18 +1,19 @@
-## SCT_CYB_02 - Password Strength Checker
+## 🔐 SCT_CYB_ImageEncryption
 
-## 🔐 Task Summary:
-This Python script evaluates the strength of a user-provided password based on length, use of uppercase and lowercase characters, numbers, and symbols.
+## 📌 Task: Image Encryption using Python (SkillCraft Technology Internship)
 
-## 💡 Features:
-- Checks password complexity
-- Gives a strength rating (Weak, Medium, Strong)
-- Encourages use of secure passwords
+This repository contains the implementation of a basic **Image Encryption and Decryption** tool using Python. The goal of this task is to demonstrate how encryption can be applied to image files to secure them from unauthorized access.
 
-## 🧠 What I Learned:
-- Python's use of regex and string checks
-- Best practices in password creation
-- Importance of cybersecurity hygiene
+---
 
-## ▶️ How to Run:
-```bash
-python password_checker.py
+## 🧠 What I Learned
+
+- Basics of image processing using OpenCV
+- How to manipulate pixel values in an image
+- Concept of symmetric encryption (same key for encryption & decryption)
+- File handling and numpy array operations in Python
+
+---
+
+## 📂 Project Structure
+
