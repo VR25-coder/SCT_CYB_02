@@ -1,4 +1,4 @@
-# 🖼️ Image Encryption Task - SkillCraft Technology
+# SCT_CYB_02 - 🖼️ Image Encryption Task - SkillCraft Technology
 
 ## 🔐 Task Description
 
